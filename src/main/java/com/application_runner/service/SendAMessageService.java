@@ -2,7 +2,9 @@ package com.application_runner.service;
 
 import org.springframework.boot.ApplicationArguments;
 import org.springframework.boot.ApplicationRunner;
+import org.springframework.stereotype.Component;
 
+@Component
 public class SendAMessageService implements ApplicationRunner {
 
   @Override
