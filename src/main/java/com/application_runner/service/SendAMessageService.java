@@ -4,8 +4,10 @@ import org.springframework.boot.ApplicationArguments;
 import org.springframework.boot.ApplicationRunner;
 
 public class SendAMessageService implements ApplicationRunner {
+
   @Override
   public void run(ApplicationArguments args) throws Exception {
-
+    System.out.println("SEND A MESSAGE BEFORE START THE APP");
   }
+
 }
